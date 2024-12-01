@@ -4,6 +4,11 @@ import HeroSection from './components/sections/hero';
 import FeatureSection from './components/sections/feature';
 import PricingFeature from './components/sections/pricing';
 import AccessSection from './components/sections/access';
+import Head from 'next/head';
+
+export const metadata = {
+  title: 'DivocPOS',
+};
 
 export default function Home() {
   return (
